@@ -8,7 +8,3 @@ def countdown(seconds, with_sleep=false)
   end
   return "HAPPY NEW YEAR!"
 end
-
- def countdown_with_sleep(seconds)
-   countdown(seconds, true)
-  end
