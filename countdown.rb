@@ -1,4 +1,4 @@
-def countdown(seconds, with_sleep)
+def countdown(seconds, with_sleep=false)
   while seconds > 0
     puts "#{seconds.to_s} SECOND(S)!"
     seconds -= 1
